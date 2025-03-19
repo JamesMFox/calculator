@@ -1,6 +1,10 @@
 .display {
   font-family: monospace;
 }
+#display {
+  margin: 5px;
+  padding: 2px;
+}
 
 .flex-container {
   border: 2px dotted rgb(96 139 168);
@@ -8,13 +12,19 @@
   flex-direction: column;
   padding: 1em;
   align-items: center;
-  width: 350px;
+}
+
+#history p{
+  display:flex;
+  flex-direction: column;
+  margin: 5px;
 }
 
 .button-column {
   border: 2px solid rgb(150, 150, 150);
   border-radius: 5px;
   background-color: rgb(150 150 150 / 0.2);
+  margin: 5px;
   padding: 1em;
   display: flex;
   flex-direction: column;
@@ -23,12 +33,12 @@
 .row {
   display: flex;
   flex-direction: row;
-  flex-grow: 1;
+  flex-grow: 0;
 }
 .column {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  flex-grow: 0;
 }
 
 .calc-btn {
@@ -37,7 +47,7 @@
   border-radius: 5px;
   background-color: rgb(96 139 168 / 0.2);
   padding: 1em;
-  margin: .5em;
+  margin: 3px;
 }
 .btn-number {
   border: 2px solid rgb(75, 75, 75);

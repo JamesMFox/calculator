@@ -33,4 +33,15 @@ function operate(a, opp, b) {
   };
 };
 
-const buttonColumn = document.getElementsByClassName("button-column");
+const buttonColumn = document.getElementById("btn-col");
+const display = document.getElementById("display");
+
+buttonColumn.addEventListener("click", (e) => {
+  if (e.target.classList.contains("calc-btn")) {
+    if (e.target.innerText === 'C') {
+      display.innerText = '0';
+    } else {
+    display.innerText += ` ${e.target.innerText}`;
+    }
+  }
+})
