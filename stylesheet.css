@@ -1,3 +1,111 @@
-h1 {
-  color: red;
+.display {
+  font-family: monospace;
+  height: 50px;
 }
+
+.flex-container {
+  border: 2px dotted rgb(96 139 168);
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  align-items: center;
+  width: 350px;
+}
+
+.history {
+  height: 50px;
+}
+
+.button-column {
+  border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+  background-color: rgb(96 139 168 / 0.2);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.middle-row-add {
+  flex-grow: 1;
+  display: flex;
+}
+
+.middle-row {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.bottom-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-row-column {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.b-r-c-r {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-row-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.b-r-c-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.b-r-c-zero {
+  display: flex;
+  flex-direction: column;
+}
+
+.b-r-c-equals {
+  display:flex;
+  flex-direction: row;
+}
+
+.calc-btn {
+  font-family: monospace;
+  border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+  background-color: rgb(96 139 168 / 0.2);
+  padding: 1em;
+  margin: .5em;
+}
+
+/* .top-row {
+  border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+  background-color: rgb(96 139 168 / 0.2);
+  padding: 1px;
+  flex: 1 1 200px;
+}
+.middle-row {
+  border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+  background-color: rgb(96 139 168 / 0.2);
+  padding: 1px;
+  flex: 1 1 200px;
+}
+.bottom-row {
+  border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+  background-color: rgb(96 139 168 / 0.2);
+  padding: 1px;
+  flex: 1 1 200px;
+} */
