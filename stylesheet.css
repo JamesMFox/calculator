@@ -1,6 +1,5 @@
 .display {
   font-family: monospace;
-  height: 50px;
 }
 
 .flex-container {
@@ -12,10 +11,6 @@
   width: 350px;
 }
 
-.history {
-  height: 50px;
-}
-
 .button-column {
   border: 2px solid rgb(150, 150, 150);
   border-radius: 5px;
@@ -25,58 +20,15 @@
   flex-direction: column;
   align-items: center;
 }
-
-.top-row {
+.row {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
 }
-
-.middle-row-add {
+.column {
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
-  display: flex;
-}
-
-.middle-row {
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-}
-
-.bottom-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.bottom-row-column {
-  display: flex;
-  flex-direction: column;
-
-}
-
-.b-r-c-r {
-  display: flex;
-  flex-direction: row;
-}
-
-.bottom-row-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.b-r-c-c {
-  display: flex;
-  flex-direction: column;
-}
-
-.b-r-c-zero {
-  display: flex;
-  flex-direction: column;
-}
-
-.b-r-c-equals {
-  display:flex;
-  flex-direction: row;
 }
 
 .calc-btn {
@@ -91,25 +43,3 @@
   border: 2px solid rgb(75, 75, 75);
   background-color: rgba(75, 75, 75, 0.3);
 }
-
-/* .top-row {
-  border: 2px solid rgb(96 139 168);
-  border-radius: 5px;
-  background-color: rgb(96 139 168 / 0.2);
-  padding: 1px;
-  flex: 1 1 200px;
-}
-.middle-row {
-  border: 2px solid rgb(96 139 168);
-  border-radius: 5px;
-  background-color: rgb(96 139 168 / 0.2);
-  padding: 1px;
-  flex: 1 1 200px;
-}
-.bottom-row {
-  border: 2px solid rgb(96 139 168);
-  border-radius: 5px;
-  background-color: rgb(96 139 168 / 0.2);
-  padding: 1px;
-  flex: 1 1 200px;
-} */
