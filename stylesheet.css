@@ -20,6 +20,11 @@
   margin: 5px;
 }
 
+.button-fill {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .button-column {
   border: 2px solid rgb(150, 150, 150);
   border-radius: 5px;
@@ -48,6 +53,9 @@
   background-color: rgb(96 139 168 / 0.2);
   padding: 1em;
   margin: 3px;
+}
+.calc-btn:active {
+  background-color: orange;
 }
 .btn-number {
   border: 2px solid rgb(75, 75, 75);
