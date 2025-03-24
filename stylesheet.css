@@ -5,6 +5,9 @@
   margin: 5px;
   padding: 2px;
 }
+#history {
+  height: 15px;
+}
 
 .flex-container {
   border: 2px dotted rgb(96 139 168);
